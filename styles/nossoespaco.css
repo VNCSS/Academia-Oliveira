@@ -1,0 +1,43 @@
+.espaco__container{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.espaco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.espaco__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    display: flex;
+    font-style: italic;
+    color: rgb(224, 224, 224);
+}
+.espaco__info{
+    margin-left: 7em;
+}
+.espaco__nome{
+    background: var(--laranja);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    align-self: center;
+    font-style: italic;
+    margin-left: .25em;
+}
+.espaco__texto{
+    color: rgb(224, 224, 224);
+    font-size: 2.1em;
+    width: 85%;
+}
+.img__equipamentos{
+    width: 864px;
+    height: 576px;
+    border-radius: 2em;
+    margin-left: 10em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

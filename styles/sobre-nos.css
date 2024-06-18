@@ -1,0 +1,50 @@
+.sobre-nos__container{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.sobre-nos__info{
+    margin-left: 12em;
+    padding-bottom: 10em;
+}
+.sobre-nos__paragrafo{
+    color:  rgb(224, 224, 224);
+    font-style: italic;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+.sobre-nos__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    display: flex;
+    font-style: italic;
+    color: rgb(224, 224, 224);
+}
+.sobre-nos__nome{
+    background: var(--laranja);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    align-self: center;
+    font-style: italic;
+    margin-left: .25em;
+}
+.sobre-nos__descricao{
+    color: rgb(224, 224, 224);
+    font-size: 2.1em;
+    width: 85%;
+}
+.img__fachada{
+    width: 576px;
+    height: 768px;
+    border-radius: 2em;
+    margin-right: 12em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

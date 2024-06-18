@@ -1,0 +1,94 @@
+.planos__container{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.planos__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.planos__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    font-style: italic;
+    color: rgb(224, 224, 224);
+    align-self: center;
+    margin-bottom: 1em;
+    margin-top: .75em;
+}
+.planos__items{
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px rgba(252,112,18,.75);
+    border-radius: 48px;
+    padding: 1.5em;
+}
+.items__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.75em;
+    font-style: italic;
+    color: rgb(224, 224, 224);
+    margin-bottom: .5em;
+    display: flex;
+    flex-direction: row;
+}
+.items__texto{
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    width: 90%;
+}
+.planos__nome{
+    background: var(--laranja);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    align-self: center;
+    font-style: italic;
+    margin-right: .25em;
+}
+.planos__beneficios{
+    margin-top: 6em;
+    width: 50%;
+}
+.benefiocios__titulo{
+    background: var(--laranja);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 90%;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+.beneficios__texto{
+    color: rgb(224, 224, 224);
+    font-size: 1.25em;
+    padding-bottom: 1em;
+}
+.botao__planos{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    background: var(--laranja);
+    padding: .75em .25em .75em .25em;
+    border-radius: 24px;
+    margin-top: auto;
+}
+.botao__planos:hover{
+    opacity: 60%;
+    transition: .75s;
+}
+.botao__planos__texto{
+    margin-left: 1em;
+    font-weight: 600;
+}
+.cartao__planos{
+    margin-bottom: 3em;
+}
